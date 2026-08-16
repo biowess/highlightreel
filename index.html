@@ -1443,8 +1443,8 @@
               <div class="bg-ink p-7">
                 <p class="font-display text-2xl text-accent mb-3">04</p>
                 <p class="font-body text-ash text-sm">
-                  <span data-lang="en">Emerging Adulthood</span>
-                  <span data-lang="ar">البلوغ الناشئ</span>
+                  <span data-lang="en">Stalled Adulthood</span>
+                  <span data-lang="ar">البلوغ المتوقف</span>
                 </p>
               </div>
             </div>
@@ -1518,13 +1518,14 @@
                 </p>
               </div>
             </div>
-            <p class="label-caps text-ash mt-8">
+            <button onclick="openArticle(7)"
+              class="label-caps text-ash hover:text-bone transition flex items-center gap-3 mt-8">
               <span data-lang="en">Full bibliography in the manuscript</span>
               <span data-lang="ar">القائمة الكاملة للمصادر في المخطوطة</span>
               <svg class="svg-arrow svg-arrow-right horizontal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
-            </p>
+            </button>
           </div>
 
           <!-- Correspondence -->
@@ -1547,7 +1548,7 @@
                 </p>
               </a>
               <button onclick="openPdfReader()"
-                class="bg-ink p-7 hover:bg-paper transition group block text-left w-full">
+                class="bg-ink p-7 hover:bg-paper transition group block text-right w-full">
                 <p class="label-caps mb-3">
                   <span data-lang="en">PDF Viewer</span>
                   <span data-lang="ar">عارض PDF</span>
